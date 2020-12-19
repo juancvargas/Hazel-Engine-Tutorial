@@ -1,7 +1,7 @@
 /*
 From: Project setup video -> 
 We have the the following code for the Print function in this file only 
-temporarily. Notice the _declspec(ddlimport) keyword infront of the 
+temporarily. Notice the __declspec(ddlimport) keyword infront of the 
 print function declaration. 
 
 namespace Hazel {
@@ -11,7 +11,7 @@ namespace Hazel {
 #include <Hazel.h>
 
 
-// Subclass the Application class in the Hazel.h
+// Subclass the Application class in the Hazel.h file
 class Sandbox : public Hazel::Application {
 public: 
 	Sandbox() {
@@ -21,8 +21,6 @@ public:
 	~Sandbox() {
 
 	}
-
-
 };
 
 /* 

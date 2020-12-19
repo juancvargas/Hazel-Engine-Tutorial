@@ -23,7 +23,7 @@ namespace Hazel {
 	};
 
 	// To be defined by the client application
-	Application* CreateApplication();
+	Application* CreateApplication();  
 }
 
 

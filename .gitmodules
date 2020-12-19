@@ -1,0 +1,3 @@
+[submodule "Hazel/vendor/spglog"]
+	path = Hazel/vendor/spglog
+	url = https://github.com/gabime/spdlog
